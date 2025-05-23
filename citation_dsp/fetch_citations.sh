@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-
 AUTHOR_ID="XXXXXXXXXX"           # Your Google Scholar ID
 LOG="$HOME/citation_dsp/logs/citations.log"
 
