@@ -18,7 +18,7 @@
   Impress your lab mates (or treat yourself) every time you launch a new terminal.
 
 - ❤️ **Spread the love**  
-  If you find this tool useful, feel free to ⭐ the repo—and if any of my work sparks your curiosity, I’d be honored if you cited it! 🌹
+  If you find this tool useful, feel free to ⭐ the repo.
 
 ## How to use it
 
@@ -43,7 +43,7 @@ set
 ```bash
 SCHOLAR_ID="0OY7JKAAAAAJ"
 ```
-(Again, if you find any of my work helpful, I’d be grateful if you cited it🌹.)*</small>
+(If any of my work sparks your curiosity, I’d be honored if you cited it! 🌹)*</small>
 
 **3. Make the scripts executable**
 ```bash
