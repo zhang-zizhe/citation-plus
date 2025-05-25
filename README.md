@@ -79,4 +79,4 @@ MAILTO=""
 ```
 Fresh data will be fetched at midnight every day which ensures your total count and 30-day increase are updated automatically.
 
-<big>*Enjoy an effortless boost of motivation every time you open your terminal! 🚀*</big>
+# *Enjoy an effortless boost of motivation every time you open your terminal! 🚀*
