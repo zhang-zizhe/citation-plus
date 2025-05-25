@@ -3,10 +3,10 @@
 CITATION_LOG="$HOME/citation-plus/logs/citations.log"
 
 if [[ -r $CITATION_LOG ]]; then
-  total=$(tail -n1 "$CITATION_LOG" | awk '{print $2}')
+  total=$(tail -n1 "$CITATION_LOG" | awk -F': ' '{print $2}')
   cutoff=$(date -v-30d '+%Y-%m-%d')
-  past=$(grep -m1 "^$cutoff" -A0 "$CITATION_LOG" | awk '{print $2}')
-  [[ -z $past ]] && past=$(head -n1 "$CITATION_LOG" | awk '{print $2}')
+  past=$(grep -m1 "^$cutoff" -A0 "$CITATION_LOG" | awk -F': ' '{print $2}')
+  [[ -z $past ]] && past=$(head -n1 "$CITATION_LOG" | awk -F': ' '{print $2}')
 else
   total=0
   past=0
