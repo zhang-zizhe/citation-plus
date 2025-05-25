@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ——— Print total citations + 30-day increase on terminal open ———
-CITATION_LOG="$HOME/citation_dsp/logs/citations.log"
+CITATION_LOG="$HOME/citation-plus/logs/citations.log"
 
 if [[ -r $CITATION_LOG ]]; then
   total=$(tail -n1 "$CITATION_LOG" | awk '{print $2}')
