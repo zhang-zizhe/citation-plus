@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-SCHOLAR_ID="YOUR_GOOGLE_SCHOLAR_ID"           # Your Google Scholar ID
+SCHOLAR_ID="0OY7JKAAAAAJ"           # Your Google Scholar ID
 LOG="$HOME/citation-plus/logs/citations.log"
 
 mkdir -p "$(dirname "$LOG")"
