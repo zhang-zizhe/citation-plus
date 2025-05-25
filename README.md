@@ -39,7 +39,7 @@ and change it to your Google Scholar ID.
 ><small>*For example, if your Google Scholar URL is
 https://scholar.google.com/citations?user=0OY7JKAAAAAJ&hl=en,
 then your Scholar ID is **0OY7JKAAAAAJ**,
-set`SCHOLAR_ID="0OY7JKAAAAAJ"`(If any of my work sparks your curiosity, I’d be honored if you cited it! 🌹)*</small>
+set `SCHOLAR_ID="0OY7JKAAAAAJ"` (If any of my work sparks your curiosity, I’d be honored if you cited it! 🌹)*</small>
 
 **3. Make the scripts executable**
 ```bash
