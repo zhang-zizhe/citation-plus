@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 set -e
 
-AUTHOR_ID="YOUR_GOOGLE_SCHOLAR_ID"           # Your Google Scholar ID
-LOG="$HOME/display-citation-in-terminal/logs/citations.log"
+SCHOLAR_ID="YOUR_GOOGLE_SCHOLAR_ID"           # Your Google Scholar ID
+LOG="$HOME/citation-plus/logs/citations.log"
 
 mkdir -p "$(dirname "$LOG")"
 
 TOTAL=$(python3 - <<EOF
 import urllib.request, re
 
-# Bash will have already substituted ${AUTHOR_ID} here
-url = "https://scholar.google.com/citations?user=${AUTHOR_ID}&hl=en"
+# Bash will have already substituted ${SCHOLAR_ID} here
+url = "https://scholar.google.com/citations?user=${SCHOLAR_ID}&hl=en"
 html = urllib.request.urlopen(url).read().decode("utf-8")
 
 m = re.search(r'<td[^>]*class="gsc_rsb_std"[^>]*>([\d,]+)</td>', html)
