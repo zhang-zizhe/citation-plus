@@ -5,6 +5,6 @@ This is a simple plug-in to display your (or someone else's) Google Scholar cita
 First clone the repo in your home directory first.
 
 ```bash
-git clone xxx
+git clone https://github.com/zhang-zizhe/citation-plus.git
 ```
 Then modify `fetch_citations.sh`
