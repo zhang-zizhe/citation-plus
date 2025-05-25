@@ -30,6 +30,7 @@
    ```
 
 **2. Set your Scholar ID**
+
 Open `fetch_citations.sh` (*e.g. with Vim*) and replace:
 ```bash
 SCHOLAR_ID="YOUR_GOOGLE_SCHOLAR_ID"     # Your Google Scholar ID
@@ -57,11 +58,13 @@ You should see something like:
 May your academic impact continue to grow! 💪       #you can modify the output style in the show_citations script.
 ```
 **5. Auto-display on terminal open**
+
 Add this to the end of your `~/.bashrc` or` ~/.zshrc`:
 ```bash
 ~/citation-plus/show_citations_linux.sh    # or show_citations_mac.sh
 ```
 **6. Schedule daily updates**
+
 One last thing is to automatically fetch your neweast citations everyday. A very simple way is to use *Cron*, which is a time-based job scheduler used on Unix-like operating systems including *Linux* and *macOS*.
 ```bash
 crontab -e
