@@ -7,4 +7,9 @@ First clone the repo in your home directory first.
 ```bash
 git clone https://github.com/zhang-zizhe/citation-plus.git
 ```
-Then modify `fetch_citations.sh`
+Then modify `fetch_citations.sh`, find
+```bash
+SCHOLAR_ID="YOUR_GOOGLE_SCHOLAR_ID"           # Your Google Scholar ID
+```
+and change it to your google scholar id.
+(e.g. **0OY7JKAAAAAJ** is your id if the url of your google scholar page is https://scholar.google.com/citations?user=0OY7JKAAAAAJ&hl=en).
